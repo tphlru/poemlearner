@@ -35,11 +35,3 @@ class BaseExercise:
                 self.lives = 2
             else:
                 self.lives = 2
-
-    def prepare_task(self):
-        """Подготовка задания"""
-        raise NotImplementedError
-
-    def check_answer(self, user_input):
-        """Проверка ответа"""
-        raise NotImplementedError
